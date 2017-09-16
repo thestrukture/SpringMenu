@@ -10,6 +10,7 @@ Within your `index.js` invoke the function `$trukture.addPlugin(plugin)`. Refer 
 
 ### Access to shell
 Prior to execution of your plugin, the working directory will be changed to the package of the resource you are using. Invoke `$trukture.exec(cmd, callback)` to access your user's shell directly.
+pS : Web resources are located in the `web/` directory within your user's package.
 
 ### $trukture function list :
 
