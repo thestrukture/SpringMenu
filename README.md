@@ -43,6 +43,9 @@ Example
      		 		}
      		 	})
 
+## How to display HTML?
+Use the css selector `.side-bay` to access a user visible alert box.
+
 ## How to add plugins?
 Within the Strukture click on the `plugins` button to open your plugin manager.
 
