@@ -3,7 +3,7 @@
 JS plugins to interact with selected code. Spring menu plugins operate on the front end (via JS) and on the backend via Go code.
 
 ## How it works?
-Each plugin is a repository. Each repository has an `index.js`. The contents of this file will be appended to the footer of your web based IDE.
+Each plugin is a repository. Each repository has an `index.js`. The contents of this file will be ran on web page load.
 
 ### Register plugin
 Within your `index.js` invoke the function `$trukture.addPlugin(plugin)`. Refer to the function list below to view the properties  of a `plugin`.
