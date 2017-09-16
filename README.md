@@ -1,6 +1,6 @@
 # Spring menu.
 
-JS plugins to interact with selected code.
+JS plugins to interact with selected code. Spring menu plugins operate on the front end (via JS) and on the backend via Go code.
 
 ## How it works?
 Each plugin is a repository. Each repository has an `index.js`. The contents of this file will be appended to the footer of your web based IDE.
