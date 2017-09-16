@@ -1,4 +1,4 @@
-# Spring menu.
+# ⚜️ Spring menu.
 
 JS plugins to interact with selected code. Spring menu plugins operate on the front end (via JS) and on the backend via Go code.
 
