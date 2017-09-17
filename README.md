@@ -28,7 +28,7 @@ Property descriptions :
 
 - name : Name of plugin within  menu.
 - show : function ran to determine if selected line is applicable to plugin. vars :: code  - selected line.
-- exec : function ran if option is chosen within menu. vars :: code - selected line. To replace the selected line return a string, otherwise `return false`. 
+- exec : function ran if option is chosen within menu. vars :: code - selected line, editor - current [ace editor](https://github.com/ajaxorg/ace/wiki/Embedding-API) (text editor). Use editor's function insert to update code after an ansynchronous function. To replace the selected line return a string, otherwise `return false`. 
 
 ### $trukture.addPlugin(plugin)
 Add a new plugin to spring menu. Invoked from within `index.js`
