@@ -21,7 +21,7 @@ Object sample:
 	{
      	name: "spring me",
      	show : function(code){return true;},
-     	exec : function(code){ return false; }
+     	exec : function(code,editor){ return false; }
      }
 
 Property descriptions :
